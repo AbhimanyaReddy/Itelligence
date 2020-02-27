@@ -441,7 +441,7 @@ ol {
 .windmillinner:after {
   content: "";
   position: absolute;
-  margin-left: -130px;
+  margin-left: -90px;
   bottom: 0px;
   border-bottom: 100px solid #f0454e;
   border-left: 30px solid transparent;
