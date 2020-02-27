@@ -149,7 +149,7 @@ var interval1 = setInterval(function() {
   Plotly.relayout("chart1", minuteView1);
   Plotly.extendTraces("chart1", update1, [0]);
   cnt++;
-  if (++cnt === 10) clearInterval(interval);
+  if (++cnt === 1000) clearInterval(interval);
 }, 13000);
 
 var interval = setInterval(function() {

@@ -18,22 +18,34 @@ div {
   position: absolute;
   right: 10%;
   top: 2%;
-  width: 600px;
+  width: 800px;
   height: 300px;
   z-index: 1;
-/* border-style: double; */
-margin-bottom: 5px;
+  /* border-style: double; */
+  margin-bottom: 5px;
+}
+.rpmtag {
+  position: absolute;
+  top: 0%;
+  right: 10%;
+  z-index: 100;
 }
 
+.rpmtag2 {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  z-index: 100;
+}
 #chart1 {
   position: fixed;
   right: 10%;
   top: 50%;
-  width: 600px;
+  width: 800px;
   height: 300px;
   z-index: 1;
-/* border-style: double; */
-margin-bottom: 5px;
+  /* border-style: double; */
+  margin-bottom: 5px;
 }
 
 .imgline {
@@ -48,8 +60,8 @@ margin-bottom: 5px;
 .cloud-img {
   margin: 80px 0px 0px 80%;
   position: absolute;
-  right:5%;
-  top:5%;
+  right: 5%;
+  top: 5%;
   display: inline-block;
 }
 .cloud-img2 {
@@ -441,7 +453,7 @@ ol {
 .windmillinner:after {
   content: "";
   position: absolute;
-  margin-left: -130px;
+  margin-left: -100px;
   bottom: 0px;
   border-bottom: 100px solid #f0454e;
   border-left: 30px solid transparent;
