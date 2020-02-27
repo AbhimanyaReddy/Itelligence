@@ -18,7 +18,7 @@ div {
   position: absolute;
   right: 10%;
   top: 2%;
-  width: 600px;
+  width: 900px;
   height: 300px;
   z-index: 1;
 /* border-style: double; */
@@ -29,7 +29,7 @@ margin-bottom: 5px;
   position: fixed;
   right: 10%;
   top: 50%;
-  width: 600px;
+  width: 900px;
   height: 300px;
   z-index: 1;
 /* border-style: double; */
