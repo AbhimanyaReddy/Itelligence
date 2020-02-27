@@ -18,11 +18,7 @@ div {
   position: absolute;
   right: 10%;
   top: 2%;
-<<<<<<< HEAD
   width: 800px;
-=======
-  width: 900px;
->>>>>>> 24e1f8de5cc2dd93a13e49214ab3d560e0ac9b41
   height: 300px;
   z-index: 1;
   /* border-style: double; */
@@ -45,11 +41,7 @@ div {
   position: fixed;
   right: 10%;
   top: 50%;
-<<<<<<< HEAD
   width: 800px;
-=======
-  width: 900px;
->>>>>>> 24e1f8de5cc2dd93a13e49214ab3d560e0ac9b41
   height: 300px;
   z-index: 1;
   /* border-style: double; */
@@ -461,11 +453,7 @@ ol {
 .windmillinner:after {
   content: "";
   position: absolute;
-<<<<<<< HEAD
   margin-left: -100px;
-=======
-  margin-left: -90px;
->>>>>>> 24e1f8de5cc2dd93a13e49214ab3d560e0ac9b41
   bottom: 0px;
   border-bottom: 100px solid #f0454e;
   border-left: 30px solid transparent;
