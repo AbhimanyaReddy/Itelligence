@@ -8,6 +8,7 @@ var config = {
 firebase.initializeApp(config);
 var l = [],
   t = [];
+var cntl = 0;
 
 var database = firebase
   .database()
@@ -19,6 +20,13 @@ var database1 = firebase
   .ref()
   .child("sensor/dht11");
 
+function wait(ms) {
+  var start = new Date().getTime();
+  var end = start;
+  while (end < start + ms) {
+    end = new Date().getTime();
+  }
+}
 function getData() {
   database.on("value", snapshot => {
     var deb = snapshot.val();
@@ -33,17 +41,23 @@ function getData() {
   });
   var z = document.getElementById("st").value;
   if (l[l.length - 1] == z) {
-    var some = 0.0;
-    var imgs = document.querySelectorAll(".slow");
-
-    var style;
-    for (var i = 0; i < imgs.length; i++) {
-      style = imgs[i].style;
-      imgs[i].style.webkitAnimationPlayState = "running";
-    }
-    if (style.webkitAnimationPlayState === "running") {
-      style.webkitAnimationPlayState = "paused";
-      document.body.className = "paused";
+    if (cntl == 1) {
+      var some = 0.0;
+      document.getElementById("rt").value = 0.0;
+      var imgs = document.querySelectorAll(".slow");
+      style;
+      for (var i = 0; i < imgs.length; i++) {
+        style = imgs[i].style;
+        imgs[i].style.webkitAnimationPlayState = "running";
+      }
+      if (style.webkitAnimationPlayState === "running") {
+        style.webkitAnimationPlayState = "paused";
+        document.body.className = "paused";
+      }
+    } else {
+      wait(3000);
+      var some = document.getElementById("rt").value;
+      cntl = 1;
     }
   } else {
     var some = document.getElementById("rt").value;
@@ -58,6 +72,7 @@ function getData() {
       style.webkitAnimationPlayState = "running";
       document.body.className = "";
     }
+    cntl = 0;
   }
   console.log(some);
   return some;
