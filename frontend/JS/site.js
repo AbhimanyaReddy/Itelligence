@@ -101,11 +101,34 @@ var data2 = {
   plot_bgcolor: "#87ceeb",
   paper_bgcolor: "#87ceeb"
 };
+
+var layout = {
+  title: "RPM CHART",
+  yaxis: { range: [0, 600] },
+  plot_bgcolor: "#87ceeb",
+  paper_bgcolor: "#87ceeb",
+  font: {
+    family: "Arial, monospace",
+    size: 15,
+    color: "black"
+  }
+};
+var layout2 = {
+  title: "TEMPERATURE CHART",
+  yaxis: { range: [0, 60] },
+  plot_bgcolor: "#87ceeb",
+  paper_bgcolor: "#87ceeb",
+  font: {
+    family: "Arial, monospace",
+    size: 15,
+    color: "black"
+  }
+};
 var data = [data1];
-Plotly.plot("chart", data);
+Plotly.plot("chart", data, layout);
 
 var data1 = [data2];
-Plotly.plot("chart1", data1);
+Plotly.plot("chart1", data1, layout2);
 
 var cnt = 0;
 
@@ -140,7 +163,7 @@ var interval1 = setInterval(function() {
           color: "#000000"
         }
       },
-      range: [0, 50]
+      range: [0, 60]
     },
     plot_bgcolor: "#87ceeb",
     paper_bgcolor: "#87ceeb"
@@ -188,7 +211,7 @@ var interval = setInterval(function() {
           color: "#000000"
         }
       },
-      range: [0, 1200]
+      range: [0, 600]
     },
     plot_bgcolor: "#87ceeb",
     paper_bgcolor: "#87ceeb"
