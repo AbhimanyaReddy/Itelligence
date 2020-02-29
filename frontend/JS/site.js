@@ -74,12 +74,7 @@ function getData2() {
     document.getElementById("at").value = temperature;
   });
   var z2 = document.getElementById("bt").value;
-  if (t[t.length - 1] === z2) {
-    var lome = 0.0;
-  } else {
-    var lome = document.getElementById("at").value;
-    document.getElementById("bt").value = t[t.length - 1];
-  }
+  var lome = document.getElementById("at").value;
   return lome;
 }
 var today = new Date();
