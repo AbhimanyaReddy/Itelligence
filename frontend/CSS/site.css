@@ -1,9 +1,6 @@
 body {
   background-color: #87ceeb;
-  width: 950px;
-  /* overflow-y: hidden;
-  overflow-x: hidden; */
-  /* text-align: center; */
+  overflow-x: hidden;
 }
 .spe {
   max-width: fit-content;
@@ -25,7 +22,7 @@ div {
   /* border-style: double; */
   margin-bottom: 5px;
   margin-top: 0px;
-  margin-left: 90%;
+  margin-left: 50%;
 }
 .rpmtag {
   position: absolute;
@@ -47,7 +44,7 @@ div {
   /* border-style: double; */
   margin-bottom: 5px;
   margin-top: 1px;
-  margin-left: 90%;
+  margin-left: 50%;
 }
 
 .imgline {
