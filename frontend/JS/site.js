@@ -115,8 +115,8 @@ var data2 = {
 var layout = {
   title: "RPM CHART",
   yaxis: { range: [0, 600] },
-  plot_bgcolor: "#87ceeb",
-  paper_bgcolor: "#87ceeb",
+  plot_bgcolor: "gray",
+  paper_bgcolor: "gray",
   font: {
     family: "Arial, monospace",
     size: 15,
@@ -126,8 +126,8 @@ var layout = {
 var layout2 = {
   title: "TEMPERATURE CHART",
   yaxis: { range: [0, 60] },
-  plot_bgcolor: "#87ceeb",
-  paper_bgcolor: "#87ceeb",
+  plot_bgcolor: "gray",
+  paper_bgcolor: "gray",
   font: {
     family: "Arial, monospace",
     size: 15,
@@ -175,8 +175,8 @@ var interval1 = setInterval(function() {
       },
       range: [0, 60]
     },
-    plot_bgcolor: "#87ceeb",
-    paper_bgcolor: "#87ceeb"
+    plot_bgcolor: "gray",
+    paper_bgcolor: "gray"
   };
 
   Plotly.relayout("chart1", minuteView1);
@@ -223,8 +223,8 @@ var interval = setInterval(function() {
       },
       range: [0, 600]
     },
-    plot_bgcolor: "#87ceeb",
-    paper_bgcolor: "#87ceeb"
+    plot_bgcolor: "gray",
+    paper_bgcolor: "gray"
   };
 
   var minuteView1 = {
