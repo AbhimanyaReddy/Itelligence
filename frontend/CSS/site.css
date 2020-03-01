@@ -3,6 +3,9 @@ body {
   overflow-x: hidden;
   margin: 0px;
 }
+h2 {
+  color:gray;
+}
 .srtwe {
   margin: 0px;
 }
