@@ -431,21 +431,11 @@ ol {
   background: #cb3b40;
   /* bottom: 7%; */
   margin-top: 200px;
-  bottom: 2%;
+  bottom: 0%;
   position: absolute;
   margin-left: 150px;
   margin-right: auto;
   left: 0;
-}
-.grass {
-  width: 100%;
-  height: 1.8%;
-  bottom: 0px;
-  background: #61a94f;
-  position: absolute;
-  padding-top: 40px;
-  text-align: center;
-  left: 0px;
 }
 .windmillinner {
   width: 100px;
