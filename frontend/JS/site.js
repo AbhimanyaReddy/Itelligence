@@ -120,7 +120,7 @@ var layout = {
   font: {
     family: "Arial, monospace",
     size: 15,
-    color: "black"
+    color: "white"
   }
 };
 var layout2 = {
@@ -131,7 +131,7 @@ var layout2 = {
   font: {
     family: "Arial, monospace",
     size: 15,
-    color: "black"
+    color: "white"
   }
 };
 var data = [data1];
@@ -159,7 +159,7 @@ var interval1 = setInterval(function() {
         font: {
           family: "Arial, monospace",
           size: 25,
-          color: "#000000"
+          color: "white"
         }
       },
       range: [olderTime, futureTime]
@@ -170,7 +170,7 @@ var interval1 = setInterval(function() {
         font: {
           family: "Arial, monospace",
           size: 25,
-          color: "#000000"
+          color: "white"
         }
       },
       range: [0, 60]
@@ -207,7 +207,7 @@ var interval = setInterval(function() {
         font: {
           family: "Arial, monospace",
           size: 25,
-          color: "#000000"
+          color: "white"
         }
       },
       range: [olderTime, futureTime]
@@ -218,7 +218,7 @@ var interval = setInterval(function() {
         font: {
           family: "Arial, monospace",
           size: 25,
-          color: "#000000"
+          color: "white"
         }
       },
       range: [0, 600]
@@ -235,7 +235,7 @@ var interval = setInterval(function() {
         font: {
           family: "Arial, monospace",
           size: 25,
-          color: "#000000"
+          color: "white"
         }
       },
       range: [olderTime, futureTime]
@@ -246,7 +246,7 @@ var interval = setInterval(function() {
         font: {
           family: "Arial, monospace",
           size: 25,
-          color: "#000000"
+          color: "white"
         }
       },
       range: [0, 50]
