@@ -1,7 +1,7 @@
 body {
   background-color: gray;
   overflow-x: hidden;
-  margin-left: 3%;
+  margin-left: 5%;
   overflow-y: hidden;
 }
 h2 {
@@ -437,7 +437,7 @@ ol {
   margin-top: 200px;
   bottom: 0%;
   position: absolute;
-  margin-left: 150px;
+  margin-left: 12%;
   margin-right: auto;
   left: 0;
 }
